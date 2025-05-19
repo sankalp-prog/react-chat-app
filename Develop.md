@@ -76,3 +76,22 @@
   FOR EACH ROW
   EXECUTE FUNCTION update_updated_at_column();
   ```
+
+## Adding Dependencies
+
+1. Installed react router and a toast package:
+
+   ```
+   npm i react-router-dom react-hot-toast
+   ```
+
+2. Installed TailwindCSS: [googled tailwind vite install & followd official docs instructions]
+
+   ```
+   npm install tailwindcss @tailwindcss/vite
+   ```
+
+3. Install daisyUI as a Tailwind plugin: [googled the daisy docs installation]
+   ```
+   npm i -D daisyui@latest
+   ```
